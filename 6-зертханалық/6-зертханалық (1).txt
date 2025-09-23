@@ -1,0 +1,7 @@
+lst = [1.5, 2.0, 3.4, -4.6, 6.0, -2.0, 8.1, 10.0, -12.3, 4.0]
+even_elements = [x for x in lst if x % 2 == 0]
+if even_elements:
+    max_even = max(even_elements)
+    print(f"{max_even}")
+else:
+    print("Массивте жұп элементтер жоқ.")

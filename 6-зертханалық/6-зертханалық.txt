@@ -1,0 +1,12 @@
+import numpy as np
+
+A = np.random.uniform(-10, 10, (5, 10))
+positive_count = np.sum(A > 0)
+negative_count = np.sum(A < 0)
+
+if positive_count > negative_count:
+    print("Массивте оң сандар көп.")
+elif positive_count < negative_count:
+    print("Массивте теріс сандар көп.")
+else:
+    print("Оң және теріс сандар саны тең.")
